@@ -1,0 +1,4 @@
+services:
+#    mon_ds.example:
+#        class: MonDSBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

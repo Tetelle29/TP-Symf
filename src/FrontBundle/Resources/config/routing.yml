@@ -1,0 +1,27 @@
+# app/config/routing.yml
+front_index:
+    path: /
+    defaults: { _controller: FrontBundle:Default:index}
+
+front_url_message:
+    path: /message/{message_url}
+    defaults: { _controller: FrontBundle:Default:urlMessage}
+
+front_numero:
+    path: /test1/{numero}
+    defaults: { _controller: FrontBundle:Default:numero}
+    requirements:
+      numero: '\d+'
+
+front_texte:
+    path: /test2/{texte}
+    defaults: { _controller: FrontBundle:Default:texte}
+
+front_dstp12:
+    path: /dstp12
+    defaults: { _controller: FrontBundle:Default:index}
+
+front_dstp13:
+    path: /dstp13/{mavariable}
+    defaults: { _controller: FrontBundle:Default:mavariable}
+

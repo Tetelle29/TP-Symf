@@ -1,0 +1,24 @@
+# app/config/routing.yml
+back_index:
+    path: /
+    defaults: { _controller: BackBundle:Default:index}
+
+back_ip:
+    path: /ip
+    defaults: { _controller: BackBundle:Default:ip}
+
+back_test:
+    path: /test3
+    defaults: { _controller: BackBundle:Test:test3}
+
+back_test4:
+    path: /test4
+    defaults: { _controller: BackBundle:Test:test4}
+
+back_table:
+    path: /test5/vallibel/value/valvalue/nb/valnb
+    defaults: { _controller: BackBundle:Test:table}
+
+back_list:
+    path: /list
+    defaults: { _controller: BackBundle:Internaute:list}

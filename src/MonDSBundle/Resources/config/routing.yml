@@ -1,0 +1,19 @@
+monds_index:
+    path: /
+    defaults: { _controller: MonDSBundle:Default:index}
+
+monds_dstp21:
+    path: /dstp21
+    defaults: { _controller: MonDSBundle:Default:dstp21}
+
+monds_dstp22:
+    path: /dstp22
+    defaults: { _controller: MonDSBundle:Dstp22:dstp22}
+
+monds_message22:
+    path: /dstp22/{message22}
+    defaults: { _controller: MonDSBundle:Dstp22:message22}
+
+monds_dstp23:
+    path: /dstp23
+    defaults: { _controller: MonDSBundle:Dstp22:dstp23}

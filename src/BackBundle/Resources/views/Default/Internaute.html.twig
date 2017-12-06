@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+        <table>
+            <thead>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Nd annonces</th> 
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>{{internaute.id}}</td>
+                <td>{{internaute.nom}}</td>
+                <td>{{internaute.prenom}}</td>
+                <td>{{internaute.nb_ann}}</td>                                    
+            </tr>
+        </table>
+    </body>
+</html>

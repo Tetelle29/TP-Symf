@@ -1,0 +1,19 @@
+monds:
+    resource: "@MonDSBundle/Resources/config/routing.yml"
+    prefix:   /monds
+
+
+back:
+    resource: "@BackBundle/Resources/config/routing.yml"
+    prefix:   /admin
+
+
+
+front:
+    resource: "@FrontBundle/Resources/config/routing.yml"
+    prefix:   /fob
+
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
